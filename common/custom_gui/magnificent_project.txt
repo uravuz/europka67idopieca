@@ -1,0 +1,6 @@
+custom_window = {
+	name = magnificent_project_window
+	potential = {
+		magnificent_project_gui_trigger = yes
+	}
+}
