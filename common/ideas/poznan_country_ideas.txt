@@ -1,16 +1,25 @@
 poznan ideas = {
 	start = {
-		
+		production_efficiency = 0.01
+		discipline = 0.05
 	}
 
 	bonus = {
-	
+		adm_tech_cost_modifier = -0.1
+	s	shock_damage = 0.10
 	}
 
 	trigger = {
 		tag = PZN
 	}
 	free = yes
+	Poznanscy_kupcy = {global_trade_goods_size_modifier = 0.1}
+	Praca_u_podstaw = {global_unrest = -2}
+	Rozbudowa_Poznania = {development_cost = -0.1}
+	Degermanizacja = {culture_conversion_cost = -0.25}
+	Strzelcy_Wielkopolscy = {land_maintenance_modifier = -0.10}
+	Cytadela = {fort_maintenance_modifier = -0.10 garrison_size = 0.10}
 
+		
 	
 }
