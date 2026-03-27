@@ -1,0 +1,16 @@
+poznan ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+	
+	}
+
+	trigger = {
+		tag = PZN
+	}
+	free = yes
+
+	
+}
