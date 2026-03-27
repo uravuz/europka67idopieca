@@ -1,4 +1,4 @@
-Mango_PZN_missions = {
+PZN_missions_1 = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -6,7 +6,7 @@ Mango_PZN_missions = {
 	potential = {
 		tag = PZN
 	}
-	Mango_PZN_mission_1_1 = {
+	PZN_mission_1_1 = {
 		icon = mission_assemble_an_army
 		position = 1
 		trigger = {
@@ -16,9 +16,7 @@ Mango_PZN_missions = {
 
 		}
 		effect = {
-			country_event = {
-				id = Mango_PZNEvent
-			}
+			country_event = { id = PZNEvent.1 }
 		}
 	}
 
@@ -26,4 +24,5 @@ Mango_PZN_missions = {
 
 
 }
+
 
