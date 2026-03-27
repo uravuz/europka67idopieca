@@ -4,7 +4,7 @@ technology_group = eastern
 primary_culture = polish
 religion = catholic
 capital = 254 #poznan
-hisotorical_rival = TEU
+historical_rival = TEU
 add_truce_with = HUN
 add_truce_with = BOH
 
