@@ -1,4 +1,4 @@
-# 4525 - Dobryzn
+# 4525 - Dobrzyn
 
 owner = KUY
 controller = KUY
