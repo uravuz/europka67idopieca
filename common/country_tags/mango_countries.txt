@@ -1,1 +1,2 @@
 PZN = "countries/Poznan.txt"
+KUY = "countries/Kuyavia.txt"

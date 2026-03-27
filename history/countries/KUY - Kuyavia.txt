@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = polish
+religion = catholic
+capital = 4523 #inowroclaw
+historical_rival = TEU
+add_truce_with = HUN
+add_truce_with = BOH
+
+1444.11.11 = {
+    monarch = {
+		adm = 0
+		dip = 0
+		mil = 0
+		regent = yes
+
+    }
+}
