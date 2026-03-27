@@ -3,6 +3,7 @@ SRD_ideas = {
 		land_morale = 0.1
 		global_tax_modifier = 0.1
 	}
+
 	bonus = {
         land_morale = 0.10 
         local_build_cost = -0.25
@@ -11,26 +12,34 @@ SRD_ideas = {
 	trigger = {
 		tag = SRD
 	}
+
 	free = yes
+
 	SRD_Brama_do_Baltyku = {
 		global_own_trade_power = 0.2
 	}
+
 	SRD_Sieradzkie_klasztory = {
 		church_loyalty_modifier = 0.2
 		local_production_efficiency = 0.1
 	}
+
 	SRD_local_sejm = {
 		stability_cost_modifier = -0.1
 	}
+
 	SRD_Fort_of_Poland = {
 		local_defensiveness = 0.1
 	}
+
 	SRD_Legacy_of_Grunwald = {
 		infantry_power = 0.1
 	}
+
 	SRD_Control_over_vistula = {
 		light_ship_cost = -0.1
 	}
+	
 	SRD_Blood_of_the_Piast = {
 		legitimacy = 1
 	}
