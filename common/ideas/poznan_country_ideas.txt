@@ -35,8 +35,10 @@ PZN_ideas = {
 		}
 
 	PZN_Cytadela = { 
-		fort_maintenance_modifier = -0.10 garrison_size = 0.10 
+		fort_maintenance_modifier = -0.10 garrison_size = 0.10 		
 	}
+	PZN_Staranna_Praca = {
+		build_cost = -0.1}
 
 		
 	
