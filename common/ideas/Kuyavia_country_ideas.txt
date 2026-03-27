@@ -15,12 +15,32 @@ Kuyavia_ideas = {
 	tag = KUY
 	}
 	free = yes
-	Kujawskie_wyszkolenie = {infantry_power = 0.10}
-	Pokojowa_dyplomacja = {diplomatic_reputation = 1}
-	Kujawskie_arystokracja = {inflation_reduction = 0.1 prestige_decay = -0.01 }
-	Poszanowanie_chlopskie = {cstability_cost_modifier = -0.1}
-	Wladza_Koscielna = {local_missionary_strength = 0.01}
-	Piechota_kujawska = {fire_damage = 0.10}
-	Mieszczanstwo_Zydowskie = {build_time = -0.25}
+	KUY_Kujawskie_wyszkolenie = {
+		infantry_power = 0.10
+		}
+
+	KUY_Pokojowa_dyplomacja = {
+		diplomatic_reputation = 1
+	}
+
+	KUY_Kujawskie_arystokracja = 
+	{inflation_reduction = 0.1 prestige_decay = -0.01
+}
+
+	KUY_Poszanowanie_chlopskie = {
+		stability_cost_modifier = -0.1
+	}
+
+	KUY_Wladza_Koscielna = {
+		local_missionary_strength = 0.01
+	}
+
+	KUY_Piechota_kujawska = {
+		fire_damage = 0.10
+	}
+
+	KUY_Mieszczanstwo_Zydowskie = {
+		build_time = -0.25
+	}
 }
 
