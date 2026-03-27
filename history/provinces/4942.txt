@@ -10,4 +10,4 @@ culture = polish
 trade_goods = cloth
 religion = catholic
 controller = POL
-is_city = no
+is_city = yes
