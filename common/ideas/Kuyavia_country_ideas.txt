@@ -13,9 +13,10 @@
 		tag = PZN
 	}
 	free = yes
-	Poznanscy_kupcy = {infantry_power = 0.10}
-	Praca_u_podstaw = {diplomatic_reputation = 1}
-	Rozbudowa_Poznania = {	inflation_reduction = 0.1 prestige_decay = -0.01 }
-	Degermanizacja = {cstability_cost_modifier = -0.1}
-	Strzelcy_Wielkopolscy = {local_missionary_strength = 0.01}
-	Cytadela = {fire_damage = 0.10}
+	Kujawskie_wyszkolenie = {infantry_power = 0.10}
+	Pokojowa_dyplomacja = {diplomatic_reputation = 1}
+	Kujawskie_arystokracja = {inflation_reduction = 0.1 prestige_decay = -0.01 }
+	Poszanowanie_chlopskie = {cstability_cost_modifier = -0.1}
+	Wladza_Koscielna = {local_missionary_strength = 0.01}
+	Piechota_kujawska = {fire_damage = 0.10}
+	Mieszczanstwo_Zydowskie = {build_time = -0.25}
