@@ -1,31 +1,31 @@
-
 Kuyavia_ideas = {
-	
 	start = {
-	advisor_cost = -0.25
-	fort_maintenance_modifier = -0.10
+		advisor_cost = -0.25
+		fort_maintenance_modifier = -0.1
 	}
 
 	bonus = {
-	adm_tech_cost_modifier = -0.1
-	global_manpower = 1
+		adm_tech_cost_modifier = -0.1
+		global_manpower = 1
 	}
 
 	trigger = {
-	tag = KUY
+		tag = KUY
 	}
+
 	free = yes
+
 	KUY_Kujawskie_wyszkolenie = {
-		infantry_power = 0.10
-		}
+		infantry_power = 0.1
+	}
 
 	KUY_Pokojowa_dyplomacja = {
 		diplomatic_reputation = 1
 	}
 
-	KUY_Kujawskie_arystokracja = 
-	{inflation_reduction = 0.1
-	 prestige_decay = -0.01
+	KUY_Kujawskie_arystokracja = {
+		inflation_reduction = 0.1
+		prestige_decay = -0.01
 	}
 
 	KUY_Poszanowanie_chlopskie = {
@@ -37,11 +37,10 @@ Kuyavia_ideas = {
 	}
 
 	KUY_Piechota_kujawska = {
-		fire_damage = 0.10
+		fire_damage = 0.1
 	}
-
+	
 	KUY_Mieszczanstwo_Zydowskie = {
 		build_time = -0.25
 	}
 }
-

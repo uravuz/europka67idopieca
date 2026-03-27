@@ -6,40 +6,41 @@ PZN_ideas = {
 
 	bonus = {
 		adm_tech_cost_modifier = -0.1
-		shock_damage = 0.10
+		shock_damage = 0.1
 	}
 
 	trigger = {
 		tag = PZN
 	}
+
 	free = yes
 
-	PZN_Poznanscy_kupcy = { 
-		global_trade_goods_size_modifier = 0.1 
+	PZN_Poznanscy_kupcy = {
+		global_trade_goods_size_modifier = 0.1
 	}
-
+	
 	PZN_Praca_u_podstaw = {
-		 global_unrest = -2 
-		}
+		global_unrest = -2
+	}
 
 	PZN_Rozbudowa_Poznania = {
-		 development_cost = -0.1 
-		}
+		development_cost = -0.1
+	}
 
 	PZN_Degermanizacja = {
-		 culture_conversion_cost = -0.25 
-		}
+		culture_conversion_cost = -0.25
+	}
 
 	PZN_Strzelcy_Wielkopolscy = {
-		 land_maintenance_modifier = -0.10 
-		}
-
-	PZN_Cytadela = { 
-		fort_maintenance_modifier = -0.10 garrison_size = 0.10 		
+		land_maintenance_modifier = -0.1
 	}
-	PZN_Staranna_Praca = {
-		build_cost = -0.1}
 
-		
-	
+	PZN_Cytadela = {
+		fort_maintenance_modifier = -0.1
+		garrison_size = 0.1
+	}
+
+	PZN_Staranna_Praca = {
+		build_cost = -0.1
+	}
 }
