@@ -1,0 +1,15 @@
+add_core = OPL
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = muslim
+owner = OPL
+base_tax = 2
+base_manpower = 3
+base_production = 4
+culture = schlesian
+trade_goods = iron
+religion = catholic
+controller = OPL
+is_city = yes
