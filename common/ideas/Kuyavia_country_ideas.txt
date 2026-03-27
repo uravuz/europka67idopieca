@@ -1,21 +1,24 @@
-	Kuyavia ideas = {
+
+Kuyavia_ideas = {
+	
 	start = {
-		advisor_cost = -0.25
-		fort_maintenance_modifier = -0.10
+	advisor_cost = -0.25
+	fort_maintenance_modifier = -0.10
 	}
 
 	bonus = {
-		adm_tech_cost_modifier = -0.1
-	s	global_manpower = 1
+	adm_tech_cost_modifier = -0.1
+	global_manpower = 1
 	}
 
 	trigger = {
-		tag = PZN
+	tag = KUY
 	}
 	free = yes
 	Poznanscy_kupcy = {infantry_power = 0.10}
 	Praca_u_podstaw = {diplomatic_reputation = 1}
 	Rozbudowa_Poznania = {	inflation_reduction = 0.1 prestige_decay = -0.01 }
-	Degermanizacja = {cstability_cost_modifier = -0.1}
+	Degermanizacja = {stability_cost_modifier = -0.1}
 	Strzelcy_Wielkopolscy = {local_missionary_strength = 0.01}
 	Cytadela = {fire_damage = 0.10}
+}		
