@@ -1,4 +1,4 @@
-poznan ideas = {
+PZN_ideas = {
 	start = {
 		production_efficiency = 0.01
 		discipline = 0.05
@@ -6,7 +6,7 @@ poznan ideas = {
 
 	bonus = {
 		adm_tech_cost_modifier = -0.1
-	s	shock_damage = 0.10
+		shock_damage = 0.10
 	}
 
 	trigger = {
