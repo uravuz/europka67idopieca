@@ -1,0 +1,9 @@
+discovered_by = western
+discovered_by = eastern
+base_tax = 4
+base_manpower = 2
+base_production = 3
+culture = schlesian
+trade_goods = iron
+religion = catholic
+is_city = yes
