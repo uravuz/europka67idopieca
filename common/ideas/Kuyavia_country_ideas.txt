@@ -1,16 +1,18 @@
-	Kuyavia ideas = {
+
+Kuyavia_ideas = {
+	
 	start = {
-		advisor_cost = -0.25
-		fort_maintenance_modifier = -0.10
+	advisor_cost = -0.25
+	fort_maintenance_modifier = -0.10
 	}
 
 	bonus = {
-		adm_tech_cost_modifier = -0.1
-	s	global_manpower = 1
+	adm_tech_cost_modifier = -0.1
+	global_manpower = 1
 	}
 
 	trigger = {
-		tag = PZN
+	tag = KUY
 	}
 	free = yes
 	Kujawskie_wyszkolenie = {infantry_power = 0.10}
@@ -20,3 +22,5 @@
 	Wladza_Koscielna = {local_missionary_strength = 0.01}
 	Piechota_kujawska = {fire_damage = 0.10}
 	Mieszczanstwo_Zydowskie = {build_time = -0.25}
+}
+
