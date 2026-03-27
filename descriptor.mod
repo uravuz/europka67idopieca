@@ -1,0 +1,16 @@
+version="0.0.0"
+tags={
+	"Missions And Decisions"
+	"Map"
+	"Alternative History"
+	"Trade"
+	"New Nations"
+	"Religion"
+	"Technologies"
+	"National Ideas"
+	"Military"
+	"Historical"
+}
+name="Mango"
+path="mod/europka67idopieca"
+supported_version="v1.37.5.0"
