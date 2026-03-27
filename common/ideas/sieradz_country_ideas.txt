@@ -4,8 +4,8 @@ SRD_ideas = {
 		global_tax_modifier = 0.1
 	}
 	bonus = {
-        morale_of_armies = 0.1
-        global_tax_modifier = 0.1
+        land_morale = 0.10 
+        local_build_cost = -0.25
     }
     
 	trigger = {
