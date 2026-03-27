@@ -1,0 +1,13 @@
+add_core = POL
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+owner = POL
+base_tax = 3
+base_manpower = 2
+base_production = 5
+culture = polish
+trade_goods = silk
+religion = catholic
+controller = POL
+is_city = no
