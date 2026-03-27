@@ -685,7 +685,7 @@ west_prussia_area = { #3 (South West Prussia)
 }
 
 wielkopolska_area = { #5
-   254 4526 255 2963
+   254 4526 255 2963 4942
 }
 
 malopolska_area = { #5
