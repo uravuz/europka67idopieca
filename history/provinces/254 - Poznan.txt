@@ -1,4 +1,4 @@
-#254 - Poznan
+
 
 owner = PZN
 controller = PZN
