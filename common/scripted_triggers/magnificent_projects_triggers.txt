@@ -1,0 +1,3 @@
+magnificent_project_gui_trigger = {
+	province_id = 254
+}
