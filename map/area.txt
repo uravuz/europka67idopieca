@@ -725,7 +725,7 @@ sandomierz_area = {
 }
 
 kuyavia_area = {
-	4523 1859 4524 4528
+	4523 1859 4524 4528 4943
 }
 
 samogitia_area = { #4

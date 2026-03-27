@@ -1,0 +1,13 @@
+add_core = KUY
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+owner = KUY
+base_tax = 3
+base_production = 2
+base_manpower = 2
+culture = polish
+trade_goods = grain
+religion = catholic
+controller = KUY
+is_city = yes
