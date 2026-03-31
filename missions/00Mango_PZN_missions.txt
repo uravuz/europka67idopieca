@@ -1,0 +1,29 @@
+Mango_PZN_missions = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = PZN
+	}
+	Mango_PZN_mission_1_1 = {
+		icon = mission_assemble_an_army
+		position = 1
+		trigger = {
+			OR = {
+				army_size_percentage = 1.0
+			}
+
+		}
+		effect = {
+			country_event = {
+				id = Mango_PZNEvent
+			}
+		}
+	}
+
+
+
+
+}
+
