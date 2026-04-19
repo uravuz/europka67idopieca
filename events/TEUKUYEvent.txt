@@ -1,0 +1,20 @@
+namespace = TEUKUYEvent
+
+country_event = {
+	id = TEUKUYEvent.1
+	title = "TEUKUYEvent.1.title"
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = "TEUKUYEvent.1.desc"
+	picture = DIPLOMACY_eventPicture
+	trigger = {
+		tag = TEU
+	}
+
+	option = {
+		name = "TEUKUYEvent.1.a"
+		vassalize = KUY
+	
+	}
+
+}
