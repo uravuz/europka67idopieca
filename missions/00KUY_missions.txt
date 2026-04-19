@@ -12,6 +12,7 @@ KUY_missions_1 = {
 		trigger = {
 			OR = {
 				army_size_percentage = 1.0
+				year = 1450
 			}
 
 		}
@@ -19,4 +20,56 @@ KUY_missions_1 = {
 			country_event = { id = KUYEvent.1 }
 		}
 	}
+}
+
+KUY_missions_2 ={
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = KUY
+	}
+	KUY_mission_2_1 = {
+		icon = GFX_goto_peace_view
+		position = 2
+		trigger = { 
+			AND= {
+			mission_completed = KUY_mission_1_1 
+				num_of_allies = 2
+	
+	
+			}
+		}
+	}
+}
+
+KUY_missions_3 ={
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = KUY
+	}	
+}
+
+KUY_missions_4 ={
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = KUY
+	}	
+}
+
+KUY_missions_5 ={
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = KUY
+	}	
 }
