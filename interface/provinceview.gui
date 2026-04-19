@@ -2941,38 +2941,39 @@ guiTypes = {
 
 			}
 
-			# japierdole jakie zjebane gówno
 			##CUSTOMOWE MAGNIFICENT PROJECT
-			# windowType = {
-			# 	name = "magnificent_project_window"
-			# 	backGround=""
-			# 	position = { x=330 y=158 }
-			# 	size = { x=450 y=416 }
-			# 	dontRender = ""
-			# 	horizontalBorder= ""
-			# 	verticalBorder= ""
-			# 	fullScreen = no
-			# 	moveable = 0
-			# 	Orientation = "UPPER_LEFT"
+			windowType = {
+				name = "magnificent_project_window"
+				backGround=""
+				position = { x=330 y=158 }
+				size = { x=450 y=416 }
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+				moveable = 0
+				Orientation = "UPPER_LEFT"
 
-			# 	iconType = {
-			# 		name = "magnificent_project_bg"
-			# 		spriteType = "GFX_magnificent_project_bg"
-			# 		position = { x= -4 y = 0 }
-			# 	}
+				iconType = {
+					name = "magnificent_project_bg"
+					spriteType = "GFX_magnificent_project_bg"
+					position = { x= -4 y = 0 }
+					scripted = yes
+				}
 
-			# 	instantTextBoxType = {
-			# 		name = "header_label"
-			# 		position = { x = 16 y = 29 }
-			# 		textureFile = ""
-			# 		font = "vic_22"
-			# 		borderSize = {x = 2 y = 2}
-			# 		text = "LEDGER_GREAT_PROJECTS"
-			# 		maxWidth = 256 
-			# 		maxHeight = 32
-			# 		format = left
-			# 	}
-			# }
+				instantTextBoxType = {
+					name = "magnificent_project_header"
+					position = { x = 16 y = 29 }
+					textureFile = ""
+					font = "vic_22"
+					borderSize = {x = 2 y = 2}
+					text = "LEDGER_GREAT_PROJECTS"
+					maxWidth = 256 
+					maxHeight = 32
+					format = left
+					scripted = yes
+				}
+			}
 
 			windowType = {
 				name = "province_values_window"

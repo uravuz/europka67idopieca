@@ -1,5 +1,21 @@
+
 custom_window = {
 	name = magnificent_project_window
+	potential = {
+		magnificent_project_gui_trigger = yes
+	}
+}
+
+custom_icon = {
+	name = magnificent_project_bg
+	potential = {
+		magnificent_project_gui_trigger = yes
+	}
+	tooltip = "" 
+}
+
+custom_text_box = {
+	name = magnificent_project_header
 	potential = {
 		magnificent_project_gui_trigger = yes
 	}
