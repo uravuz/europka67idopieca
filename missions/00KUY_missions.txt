@@ -1,12 +1,12 @@
-Mango_PZN_missions = {
+KUY_missions = {
 	slot = 3
 	generic = no
 	ai = yes
 	has_country_shield = yes
 	potential = {
-		tag = PZN
+		tag = KUY
 	}
-	Mango_PZN_mission_1_1 = {
+	KUY_mission_1_1 = {
 		icon = mission_assemble_an_army
 		position = 1
 		trigger = {
@@ -16,12 +16,7 @@ Mango_PZN_missions = {
 
 		}
 		effect = {
-			country_event = { id = PZNEvent.1 }
+			country_event = { id = KUYEvent.1 }
 		}
 	}
-
-
-
-
 }
-

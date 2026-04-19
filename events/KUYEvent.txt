@@ -1,0 +1,52 @@
+namespace = KUYEvent
+
+country_event = {
+	id = KUYEvent.1
+	title = "KUYEvent.1.title"
+	is_triggered_only = yes
+	desc = "KUYEvent.1.desc"
+	picture = DIPLOMACY_eventPicture
+	trigger = {
+		tag = KUY
+	}
+
+	option = {
+		name = "KUYEvent.1.a"
+		define_ruler = {
+			age = 24
+			adm = 3
+			dip = 5
+			mil = 3
+		}
+		remove_historical_rival = TEU
+		
+
+		TEU = {
+			country_event = {
+				id = TEUKUYEvent.1
+			}
+		}
+	}
+
+	option = {
+		name = "KUYEvent.1.b"
+		define_ruler = {
+			age = 23
+			adm = 5
+			dip = 3
+			mil = 4
+		}
+		
+		TEU = {
+			add_casus_belli = {
+			 target = KUY
+			 type = cb_vassalize_mission
+			 months = 60
+			 
+			}
+		}
+	
+	}
+
+
+}

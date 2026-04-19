@@ -1,16 +1,19 @@
-namespace = Mango_PZNEvent
+namespace = PZNEvent
 
 country_event = {
-	id = Mango_PZNEvent
-	title = "Mango_PZNEvent.1.title"
+	id = PZNEvent.1
+	title = "PZNEvent.1.title"
 	is_triggered_only = yes
-	desc = "Mango_PZNEvent.1.desc"
+	desc = "PZNEvent.1.desc"
 	picture = DIPLOMACY_eventPicture
+	trigger = {
+		tag = PZN
+	}
 
 
 
 	option = {
-		name = "Mango_PZNEvent.1.a"
+		name = "PZNEvent.1.a"
 		define_ruler = {
 			age = 20
 			adm = 5
@@ -21,7 +24,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Mango_PZNEvent.1.b"
+		name = "PZNEvent.1.b"
 		define_ruler = {
 			age = 20
 			dynasty = Hohenzolern
