@@ -1,4 +1,4 @@
-KUY_missions = {
+KUY_missions_1 = {
 	slot = 3
 	generic = no
 	ai = yes
