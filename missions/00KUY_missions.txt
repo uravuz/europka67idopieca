@@ -31,14 +31,23 @@ KUY_missions_2 ={
 		tag = KUY
 	}
 	KUY_mission_2_1 = {
-		icon = GFX_goto_peace_view
+		icon = mission_diplomatic_relation
 		position = 2
+		required_missions = { KUY_mission_1_1 }	
 		trigger = { 
 			AND= {
-			mission_completed = KUY_mission_1_1 
 				num_of_allies = 2
-	
-	
+			}
+		}
+
+		effect = {
+			add_casus_belli = {
+				type = cb_annex
+				target = SRD
+			}
+			add_casus_belli = {
+				type = cb_annex
+				target = KUY
 			}
 		}
 	}
@@ -51,10 +60,25 @@ KUY_missions_3 ={
 	has_country_shield = yes
 	potential = {
 		tag = KUY
-	}	
+	}
+	KUY_mission_3_1 ={
+		icon = mission_plc_cross_wild_field
+		position = 3
+		required_missions = { KUY_mission_2_1 }
+		trigger = {
+			
+			central_poland_area = {
+				owned_by = PZN
+			}
+			
+		}
+		effect = {
+			core_creation = -35
+		}
+	}
 }
 
-KUY_missions_4 ={
+KUY_missions_4 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -64,7 +88,7 @@ KUY_missions_4 ={
 	}	
 }
 
-KUY_missions_5 ={
+KUY_missions_5 = {
 	slot = 5
 	generic = no
 	ai = yes
